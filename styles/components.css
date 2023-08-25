@@ -1,0 +1,30 @@
+.btn {
+    background-color: transparent;
+    border-radius: 6px;
+    border: .1px solid #346285;
+    color: #346285;
+    padding: 8px;
+    font-size: 18px;
+    transition: .3s;
+    font-weight: 500;
+} 
+
+
+.btn:hover {
+    color: #529AD1;
+
+}
+
+.btn-submit {
+    background-color: var(--primary-color) !important;
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--white);
+    font-weight: 500;
+    
+}
+

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniTec</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <a href="#home" class="logo"><img src="./img/Logo.svg" alt="Logo - UniTec"></a>
+            <nav class="navigation">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">Sobre Nós</a>
+                <a href="#contact">Contato</a>
+                <a href="#login">Login</a>
+                <a href="#subscribe"><button class="btn">Inscreva-se</button></a>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <div id="description-home">
+            <div class="slogan-home">
+                <h1>Conectando você ao Futuro!</h1>
+            </div>
+            <div class="text-home">
+                <p>
+                    A Universidade UniTec é uma instituição de ensino superior que busca oferecer uma formação de excelência em tecnologia e inovação. Nossa missão é preparar os alunos para serem os profissionais do futuro, capazes de enfrentar os desafios de um mundo cada vez mais tecnológico e globalizado. Com um corpo docente altamente qualificado e uma infraestrutura moderna, nossos alunos têm acesso a uma educação de qualidade e a oportunidades de pesquisa e desenvolvimento em diversas áreas. Na UniTec, valorizamos a criatividade, a ética e o pensamento crítico, buscando formar cidadãos capazes de contribuir para o desenvolvimento sustentável da sociedade. Junte-se a nós e faça parte de uma comunidade acadêmica comprometida com a inovação e a transformação do mundo através do conhecimento.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div id="description-about">
+            <div class="title-about">
+                <h1>Conheça nossa história</h1>
+            </div>
+            <div class="text-about">
+                <p>
+                    Somos uma instituição de ensino que tem como objetivo preparar os estudantes para o futuro, por meio de uma formação integral e de qualidade. Nossa equipe é composta por profissionais experientes e comprometidos em proporcionar aos alunos uma educação que vai além da sala de aula. Buscamos formar cidadãos críticos e conscientes, capazes de contribuir para o desenvolvimento da sociedade em que vivemos. Seja bem-vindo à nossa universidade, onde o conhecimento é uma jornada constante e recompensadora
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container-contact">
+            <div class="form-box contact">
+                <h2>Contato</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required>
+                        <label for="">Usuário</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label for="">E-mail</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="reader"></ion-icon></span>
+                        <input type="text" required>
+                        <label for="">Mensagem</label>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="login">
+        <div class="wrapper">
+            <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>E-mail</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Lembre-me</label>
+                        <a href="##">Esqueceu a Senha?</a>
+                    </div>
+                    <button type="submit" class="btn-submit">Login</button>
+                    <div class="login-register">
+                        <p>Não tem uma conta? <a href="##" class="register-link">Registre-se</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <h2>Registre-se</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Nome de usuário</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>E-mail</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Eu concordo com os termos</label>
+                    </div>
+                    <button type="submit" class="btn-submit">Registre-se</button>
+                    <div class="login-register">
+                        <p>Já tem uma conta? <a href="##" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="subscribe">
+        <div class="container-subscribe">
+            <div class="form-box-subscribe">
+                <h2>Inscreva-se Já!</h2>
+                <form action="#">
+                    <div class="row">
+                        <div class="input-box-subscribe">
+                            <span class="icon"><ion-icon name="person"></ion-icon></span>
+                            <input type="text" required>
+                            <label>Nome completo</label>
+                        </div>
+                        <div class="input-box-subscribe">
+                            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                            <input type="email" required>
+                            <label>E-mail</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-box-subscribe"">
+                            <span class="icon"><ion-icon name="call"></ion-icon></span>
+                            <input type="tel" required>
+                            <label>Telefone</label>
+                        </div>
+                        <div class="input-box-subscribe"">
+                            <span class="icon"><ion-icon name="home"></ion-icon></span>
+                            <input type="text" required>
+                            <label>Endereço</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-box-subscribe"">
+                            <span class="icon"><ion-icon name="calendar"></ion-icon></span>
+                            <input type="text" required>
+                            <label>Data de Nascimento</label>
+                        </div>
+                        <div class="input-box-subscribe"">
+                            <span class="icon"><ion-icon name="finger-print"></ion-icon></span>
+                            <input type="text" required>
+                            <label>CPF</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="select-box">
+                            <span class="icon"><ion-icon name="people"></ion-icon></span>
+                            <select name="Gênero" id="gender" required>
+                                <option selected disabled>Gênero</option>
+                                <option>Masculino</option>
+                                <option>Feminino</option>
+                            </select>
+                        </div>
+                        <div class="select-box">
+                            <span class="icon"><ion-icon name="cloudy-night"></ion-icon></span>
+                            <select name="Periodo" id="period" required>
+                                <option selected disabled>Periodo</option>
+                                <option>Manhã</option>
+                                <option>Tarde</option>
+                                <option>Noite</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Eu concordo com os termos</label>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar</button>
+                </form>
+                  
+            </div>
+        </div>
+    </section>
+    
+    <script src="./js/menu.js"></script>
+    <script src="./js/login.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

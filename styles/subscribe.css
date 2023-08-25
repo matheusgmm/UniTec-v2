@@ -1,0 +1,119 @@
+#subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../img/banner-subscribe.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container-subscribe {
+    margin-top: 6rem;
+    position: relative;
+    width: 550px;
+    height: 550px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba (0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-subscribe h2 {
+    font-size: 2em;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.form-box-subscribe {
+    text-align: center;
+}
+
+.form-box-subscribe form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-box-subscribe {
+    width: 45%;
+    position: relative;
+    height: 50px;
+    border-bottom: 2px solid var(--primary-color);
+    margin: 10px 0;
+}
+
+.input-box-subscribe label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: var(--primary-color);
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box-subscribe input:focus~label,
+.input-box-subscribe input:valid~label {
+    top: -5px;
+}
+
+.input-box-subscribe input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: var(--primary-color);
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+
+}
+
+.input-box-subscribe .icon,
+.select-box .icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: var(--primary-color);
+    line-height: 57px;
+
+}
+
+.row {
+    width: 100%;
+}
+
+.select-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px;
+}
+
+.select-box select {
+    width: 100%;
+}
+

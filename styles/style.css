@@ -1,0 +1,45 @@
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: transparent;
+    /* background: rgb(255, 255, 255, 0.5); */
+    backdrop-filter: blur(1px); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+
+nav a {
+    font-size: 18px;
+    color: #346285;
+    text-decoration: none;
+    font-weight: 800;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+nav a:hover,
+nav a.active {
+    color: #529AD1;
+}
+
+section {
+    min-height: 100vh;
+    background: var(--white);
+    font-size: 100px;
+    color: #FFFFFF;
+    font-weight: 700;
+
+
+} 
+
+section:nth-child(odd) {
+    background: #323946;
+}
+
